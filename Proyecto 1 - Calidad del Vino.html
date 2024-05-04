@@ -1,0 +1,1913 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>8fdd80ef14d34e93a40ef2fd111a2020</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="proyecto-1--predecir-la-calidad-del-vino"
+class="cell markdown">
+<h1><strong><em>Proyecto 1 – Predecir la calidad del
+Vino</em></strong></h1>
+<p>Integrantes: Claudia Herenia Galindo Rojas, Jaime Andrés Carvajal
+Gutierrez, Sergio Herrera Quijano, Edison Yesid Herrera, Johana Trejos,
+Luisa Fernanda Cristancho.</p>
+<p>Se pretede hacer una exploración de las variables que afectan la
+calidad de los vinos producidos por la region vinicola Vinho Verde en
+Portugal, para esto se toma como punto de partida un "DataFrame" que
+contiene 1599 muestras de vinos con la medicion de doce de sus
+propiedades fisico-quimicas, junto con su calificacion de calidad en una
+escala de 1 a 10. A partir de esta informacion se quiere realizar un
+modelo de Machine Learning para predecir la calidad que tendrá un vino
+dependiendo de las variales medidas.</p>
+</section>
+<div class="cell markdown">
+<p>Primero se van a importar todas la librerias necesarias para la
+solución de nuestro ejercicio</p>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> PolynomialFeatures</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression, SGDRegressor, Ridge, Lasso, LogisticRegression</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> PolynomialFeatures, StandardScaler, OneHotEncoder</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> Pipeline</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_absolute_error, mean_squared_error</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.impute <span class="im">import</span> SimpleImputer</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.feature_selection <span class="im">import</span> SelectPercentile, chi2</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.compose <span class="im">import</span> ColumnTransformer</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> make_regression</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Se llama a nuestro archivo "winequality-red.csv" y se checkea los
+porcentajes de los valores que estén NAN</p>
+</div>
+<div class="cell markdown">
+<p>Se decide hace una copia del dataframe df para poder, en caso de que
+en este primer ejercico no se logre, volver a usar el dataframe sin
+cambios y modelar nuevamente</p>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;winequality-red.csv&quot;</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>dfSecondary <span class="op">=</span> df.copy()</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Revisar si existen valores NaN</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>(<span class="bu">round</span>(<span class="dv">100</span><span class="op">*</span>(df.isnull().<span class="bu">sum</span>()<span class="op">/</span><span class="bu">len</span>(df.index)),<span class="dv">2</span>)).to_frame(<span class="st">&#39;Nulls&#39;</span>).sort_values(by<span class="op">=</span><span class="st">&#39;Nulls&#39;</span> , ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Nulls</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>fixed acidity</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>volatile acidity</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>citric acid</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>residual sugar</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>chlorides</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>free sulfur dioxide</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>total sulfur dioxide</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>density</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>pH</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>sulphates</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>alcohol</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>quality</th>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fixed acidity</th>
+      <th>volatile acidity</th>
+      <th>citric acid</th>
+      <th>residual sugar</th>
+      <th>chlorides</th>
+      <th>free sulfur dioxide</th>
+      <th>total sulfur dioxide</th>
+      <th>density</th>
+      <th>pH</th>
+      <th>sulphates</th>
+      <th>alcohol</th>
+      <th>quality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>7.4</td>
+      <td>0.70</td>
+      <td>0.00</td>
+      <td>1.9</td>
+      <td>0.076</td>
+      <td>11.0</td>
+      <td>34.0</td>
+      <td>0.9978</td>
+      <td>3.51</td>
+      <td>0.56</td>
+      <td>9.4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7.8</td>
+      <td>0.88</td>
+      <td>0.00</td>
+      <td>2.6</td>
+      <td>0.098</td>
+      <td>25.0</td>
+      <td>67.0</td>
+      <td>0.9968</td>
+      <td>3.20</td>
+      <td>0.68</td>
+      <td>9.8</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>7.8</td>
+      <td>0.76</td>
+      <td>0.04</td>
+      <td>2.3</td>
+      <td>0.092</td>
+      <td>15.0</td>
+      <td>54.0</td>
+      <td>0.9970</td>
+      <td>3.26</td>
+      <td>0.65</td>
+      <td>9.8</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>11.2</td>
+      <td>0.28</td>
+      <td>0.56</td>
+      <td>1.9</td>
+      <td>0.075</td>
+      <td>17.0</td>
+      <td>60.0</td>
+      <td>0.9980</td>
+      <td>3.16</td>
+      <td>0.58</td>
+      <td>9.8</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7.4</td>
+      <td>0.70</td>
+      <td>0.00</td>
+      <td>1.9</td>
+      <td>0.076</td>
+      <td>11.0</td>
+      <td>34.0</td>
+      <td>0.9978</td>
+      <td>3.51</td>
+      <td>0.56</td>
+      <td>9.4</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.info()</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#La variable quality es una variable numerica</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1599 entries, 0 to 1598
+Data columns (total 12 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   fixed acidity         1599 non-null   float64
+ 1   volatile acidity      1599 non-null   float64
+ 2   citric acid           1599 non-null   float64
+ 3   residual sugar        1599 non-null   float64
+ 4   chlorides             1599 non-null   float64
+ 5   free sulfur dioxide   1599 non-null   float64
+ 6   total sulfur dioxide  1599 non-null   float64
+ 7   density               1599 non-null   float64
+ 8   pH                    1599 non-null   float64
+ 9   sulphates             1599 non-null   float64
+ 10  alcohol               1599 non-null   float64
+ 11  quality               1599 non-null   int64  
+dtypes: float64(11), int64(1)
+memory usage: 150.0 KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Como resultado de la exploración del estado del DataFrame se pudo
+observar que no existen valores nulos en las variables, por otro lado,
+estas variables contienen valores numericos decimales, siendo la
+variable de Calidad (quality) la unica que se presenta en valores
+enteros.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Primer intento de Modelo de regresion usando todas las
+variables</strong></p>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Definir variables </span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(<span class="st">&#39;quality&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">&#39;quality&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>X.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>(1599, 11)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>y.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>(1599,)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dividir en conjunto de entrenamiento y prueba</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">45</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#PIPELINE</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>numeric_features <span class="op">=</span> [<span class="st">&#39;fixed acidity&#39;</span>, <span class="st">&#39;volatile acidity&#39;</span>, </span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;citric acid&#39;</span>,</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;residual sugar&#39;</span>,</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;chlorides&#39;</span>,</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;free sulfur dioxide&#39;</span>,</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;total sulfur dioxide&#39;</span>,</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;density&#39;</span>,</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;pH&#39;</span>,</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;sulphates&#39;</span>,	</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;alcohol&#39;</span>]</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>numeric_transformer <span class="op">=</span> Pipeline(</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span>[(<span class="st">&quot;imputer&quot;</span>, SimpleImputer (strategy<span class="op">=</span><span class="st">&quot;median&quot;</span>)), (<span class="st">&quot;scaler&quot;</span>, StandardScaler())]</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>preprocessor <span class="op">=</span> ColumnTransformer(</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>    transformers <span class="op">=</span> [</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;num&quot;</span>, numeric_transformer, numeric_features), </span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>model_rl <span class="op">=</span> Pipeline(</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;reglin&quot;</span>, LinearRegression())] </span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>model_sgd <span class="op">=</span> Pipeline(</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regSGDR&quot;</span>, SGDRegressor())] </span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>model_ridge <span class="op">=</span> Pipeline(</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regRID&quot;</span>, Ridge())] </span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>model_lasso <span class="op">=</span> Pipeline(</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regLASS&quot;</span>, Lasso())] </span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>model_rl.fit(X_train, y_train)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Regresion Lineal: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_rl.score(X_test, y_test))</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>model_sgd.fit(X_train, y_train)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo SGDR: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_sgd.score(X_test, y_test))</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>model_ridge.fit(X_train, y_train)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Ridge: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_ridge.score(X_test, y_test))</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>model_lasso.fit(X_train, y_train)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Lasso: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_lasso.score(X_test, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Modelo Regresion Lineal: 0.335484
+Modelo SGDR: 0.320358
+Modelo Ridge: 0.335518
+Modelo Lasso: -0.000706
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Resultados de nuestos primeros modelos</strong></p>
+</div>
+<div class="cell markdown">
+<p>El <strong>Modelo de Regresión Lineal</strong> nos dice que en un
+33.5% la variabilidad de la calidad del vino rojo puede ser explicada
+por las caracterísiticas físico-químicas del mismo. Esto sugiere que el
+modelo tiene cierta capacidad predictiva, pero aún queda una cantidad
+significativa de variabilidad sin explicar. El <strong>Modelo
+SGDR</strong> nos muestra que en un 34.0% las caracterísiticas del vino
+pueden explicar su clidad. Con este modelo obtenemos un 0.5% más de
+rendimiento, siendo de igual forma bajo. El <strong>Modelo
+Ridge</strong> tiene un porcentaje similar al de la regresión lineal.
+Haciendo una aproximación, el 33.6% de la variabilidad en la calidad del
+vino puede ser explicada por sus componentes y/o caracterísitcas. Sin
+embargo, al no mejorar significativamente los demás modelos, se puede
+decir que no ajusta efectivamente la predicción. El <strong>Modelo
+Lasso</strong> al tener un porcentaje negativo, podemos llegar a
+concluir que este modelo no es capaz de explicar la variabilidad en la
+calidad del vino de una forma satisfactoriamente significativa.</p>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>y_predict <span class="op">=</span> model_rl.score(X, y)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Coefficient of determination in the training set: &quot;</span>, y_predict)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MAE: &quot;</span>, mean_absolute_error (y_test, model_rl.predict(X_test)))</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MSE: &quot;</span>, mean_squared_error (y_test, model_rl.predict(X_test)))</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;RMSE: &quot;</span>, np.sqrt (mean_squared_error(y_test, model_rl.predict(X_test))))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Coefficient of determination in the training set:  0.3574580843676589
+MAE:  0.4986280510037936
+MSE:  0.4391776420313209
+RMSE:  0.6627047925217691
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>El <strong>coeficiente de determinación</strong> nos indica que el
+35.7% de la variabilidad en la calidad del vino puede ser explicada
+gracias a las caracterísitcas físico-químicas del mismo. En este
+sentido, un coeficiente de 1 nos indicaría que el modelo tiene un ajuste
+perfecto, por lo que se puede entender que nuestro modelo llega a
+explicar en parte (pero no en su totalidad) los cambios en la calidad
+del vino.</p>
+<p>Gracias al valor del <strong>error absoluto medio</strong> podemos
+confirmar que el modelo se equivoca en alrededor 0.5 unidades al
+predecir la calidad del vino.</p>
+<p>El <strong>error cuadrático medio</strong> tiene un valor de 0.44,
+este es el promedio de los cuadrados de los errores entre las
+predicciones y los valores reales. Por otro lado, la <strong>raíz del
+error medio</strong> nos muestra los resultados de la raíz cuadrada de
+MSE, la cual, en nuestra proyección tiene un valor de 0.66. Este valor
+nos da una idea de la magnitud de errores en nuestra predicción en la
+misma escala que la variable que estás prediciendo.</p>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> make_regression</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>model_rf_regressor <span class="op">=</span> Pipeline(</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regramfor&quot;</span>, RandomForestRegressor())] </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>model_rf_regressor.fit(X_train, y_train)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Regressor: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_rf_regressor.score(X_test, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Modelo Regressor: 0.468825
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Gracias al modelo regresor nos subió nuestra prediccion a 47.11%.
+Esto puede ser interpretado como que el 47.11% de la variación en la
+calidad del vino puede ser explicada por las caracterísiticas del
+mismo.</p>
+</div>
+<div class="cell markdown">
+<p><strong><em>Revisar como se puede mejorar el modelo</em></strong></p>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>df.columns[:<span class="op">-</span><span class="dv">1</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>Index([&#39;fixed acidity&#39;, &#39;volatile acidity&#39;, &#39;citric acid&#39;, &#39;residual sugar&#39;,
+       &#39;chlorides&#39;, &#39;free sulfur dioxide&#39;, &#39;total sulfur dioxide&#39;, &#39;density&#39;,
+       &#39;pH&#39;, &#39;sulphates&#39;, &#39;alcohol&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>Revisar la correlación entre las variables</li>
+</ul>
+</div>
+<div class="cell markdown">
+<p>Se propone hacer una revisión en la correlación de las variables
+para, de esta forma, sacar las que tengan una correlación más baja y/o
+nula y ver si mejora la predicción</p>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>title_font <span class="op">=</span> {</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;family&quot;</span> : <span class="st">&quot;arial&quot;</span>,</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;color&quot;</span> : <span class="st">&quot;darkred&quot;</span>,</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;weight&quot;</span> : <span class="st">&quot;bold&quot;</span>,</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;size&quot;</span> : <span class="dv">15</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>axis_font <span class="op">=</span> {</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;family&quot;</span> : <span class="st">&quot;arial&quot;</span>,</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;color&quot;</span> : <span class="st">&quot;darkblue&quot;</span>,</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;weight&quot;</span> : <span class="st">&quot;bold&quot;</span>,</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;size&quot;</span> : <span class="dv">13</span></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> df.columns[:<span class="op">-</span><span class="dv">1</span>]:</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>    sns.scatterplot(x<span class="op">=</span><span class="st">&quot;quality&quot;</span>, y<span class="op">=</span>i, data<span class="op">=</span>df)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>    sns.regplot(x<span class="op">=</span><span class="st">&quot;quality&quot;</span>, y<span class="op">=</span>i, data<span class="op">=</span>df, scatter<span class="op">=</span><span class="va">False</span>, color<span class="op">=</span><span class="st">&#39;red&#39;</span>)  <span class="co"># Adding regression line</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">&quot;Quality - &quot;</span> <span class="op">+</span> i, fontdict<span class="op">=</span>title_font)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&quot;Quality&quot;</span>, fontdict<span class="op">=</span>axis_font)</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(i, fontdict<span class="op">=</span>axis_font)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/68a2f98d64feabf2e94728a7a7c8f188e42c7cf9.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/4c4fdb61c2ee17c76f449cdcc33959204cca42d8.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/11e118288969dbf26169273dd392a398f1b64583.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/5bae013723daf4f2ef5f8bbc7e7a1a6814b7e028.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/444329210489d861aa599a32170908e7cfdeebd5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/bf366af5ed319d659ce00ecea607c602623b4cd6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/71ccdec0fe5a50838882a70f056e466a1fe286b8.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/e4cd2910209c70f036593cfd0fdf6c9479ce3442.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/9860716523eb5e53ec366aeffef8dcc30f301270.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/374b99cd19bd328969c6b4cab7e0cca0a0f27831.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/d0103a297d30c55a0d9e2e524161d7611b65f3cc.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Se puede decir que las variables con correlación baja son:</p>
+<ul>
+<li>residual sugar</li>
+<li>free sulfur dioxide</li>
+<li>ph</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">#se quitan las columnas que no tienen una correlación alta</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>df.drop([<span class="st">&quot;residual sugar&quot;</span>,<span class="st">&quot;free sulfur dioxide&quot;</span>, <span class="st">&quot;pH&quot;</span>], axis <span class="op">=</span> <span class="dv">1</span>, inplace <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fixed acidity</th>
+      <th>volatile acidity</th>
+      <th>citric acid</th>
+      <th>chlorides</th>
+      <th>total sulfur dioxide</th>
+      <th>density</th>
+      <th>sulphates</th>
+      <th>alcohol</th>
+      <th>quality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>7.4</td>
+      <td>0.70</td>
+      <td>0.00</td>
+      <td>0.076</td>
+      <td>34.0</td>
+      <td>0.9978</td>
+      <td>0.56</td>
+      <td>9.4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7.8</td>
+      <td>0.88</td>
+      <td>0.00</td>
+      <td>0.098</td>
+      <td>67.0</td>
+      <td>0.9968</td>
+      <td>0.68</td>
+      <td>9.8</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>7.8</td>
+      <td>0.76</td>
+      <td>0.04</td>
+      <td>0.092</td>
+      <td>54.0</td>
+      <td>0.9970</td>
+      <td>0.65</td>
+      <td>9.8</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>11.2</td>
+      <td>0.28</td>
+      <td>0.56</td>
+      <td>0.075</td>
+      <td>60.0</td>
+      <td>0.9980</td>
+      <td>0.58</td>
+      <td>9.8</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7.4</td>
+      <td>0.70</td>
+      <td>0.00</td>
+      <td>0.076</td>
+      <td>34.0</td>
+      <td>0.9978</td>
+      <td>0.56</td>
+      <td>9.4</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar la frecuencia de cada categoría</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>quality_counts <span class="op">=</span> df[<span class="st">&#39;quality&#39;</span>].value_counts()</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear un gráfico de barras</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>quality_counts.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>)</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Calidad&#39;</span>)</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Frecuencia&#39;</span>)</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribución de la calidad del vino&#39;</span>)</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9d93fb0847ac48068b00bf131bef087a/a1a9fbe0352c2f6a3f9ddb0939f9d21367614c8e.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Se pasa a intentar nuevamente el modelo</p>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Definir variables </span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(<span class="st">&#39;quality&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">&#39;quality&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dividir en conjunto de entrenamiento y prueba</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">45</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">#PIPELINE</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>numeric_features <span class="op">=</span> [<span class="st">&#39;fixed acidity&#39;</span>, <span class="st">&#39;volatile acidity&#39;</span>,</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;citric acid&#39;</span>,</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;chlorides&#39;</span>,</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;total sulfur dioxide&#39;</span>,</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;density&#39;</span>,</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;sulphates&#39;</span>,	</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;alcohol&#39;</span>]</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>numeric_transformer <span class="op">=</span> Pipeline(</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span>[(<span class="st">&quot;imputer&quot;</span>, SimpleImputer (strategy<span class="op">=</span><span class="st">&quot;median&quot;</span>)), (<span class="st">&quot;scaler&quot;</span>, StandardScaler())]</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-16"><a href="#cb33-16" aria-hidden="true" tabindex="-1"></a>preprocessor <span class="op">=</span> ColumnTransformer(</span>
+<span id="cb33-17"><a href="#cb33-17" aria-hidden="true" tabindex="-1"></a>    transformers <span class="op">=</span> [</span>
+<span id="cb33-18"><a href="#cb33-18" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;num&quot;</span>, numeric_transformer, numeric_features), </span>
+<span id="cb33-19"><a href="#cb33-19" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb33-20"><a href="#cb33-20" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>model_rl <span class="op">=</span> Pipeline(</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;reglin&quot;</span>, LinearRegression())] </span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>model_sgd <span class="op">=</span> Pipeline(</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regSGDR&quot;</span>, SGDRegressor())] </span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>model_ridge <span class="op">=</span> Pipeline(</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regRID&quot;</span>, Ridge())] </span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>model_lasso <span class="op">=</span> Pipeline(</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regLASS&quot;</span>, Lasso())] </span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>model_rl.fit(X_train, y_train)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Regresion Lineal: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_rl.score(X_test, y_test))</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>model_sgd.fit(X_train, y_train)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo SGDR: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_sgd.score(X_test, y_test))</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>model_ridge.fit(X_train, y_train)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Ridge: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_ridge.score(X_test, y_test))</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>model_lasso.fit(X_train, y_train)</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Lasso: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_lasso.score(X_test, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Modelo Regresion Lineal: 0.340731
+Modelo SGDR: 0.341361
+Modelo Ridge: 0.340773
+Modelo Lasso: -0.000706
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> make_regression</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>model_rf_regressor <span class="op">=</span> Pipeline(</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regramfor&quot;</span>, RandomForestRegressor())] </span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>model_rf_regressor.fit(X_train, y_train)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Regressor: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_rf_regressor.score(X_test, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Modelo Regressor: 0.455282
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>y_predict <span class="op">=</span> model_rl.score(X, y)</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Coefficient of determination in the training set: &quot;</span>, y_predict)</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MAE: &quot;</span>, mean_absolute_error (y_test, model_rl.predict(X_test)))</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;MSE: &quot;</span>, mean_squared_error (y_test, model_rl.predict(X_test)))</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;RMSE: &quot;</span>, np.sqrt (mean_squared_error(y_test, model_rl.predict(X_test))))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Coefficient of determination in the training set:  0.3533070508388487
+MAE:  0.49895077738992455
+MSE:  0.4357096108289264
+RMSE:  0.6600830332836365
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Se ve que los datos no cambian mucho a comparación del primer modelo
+realizado.</p>
+</div>
+<div class="cell markdown">
+<p><em>¿Poner como variable categórica la cualidad?</em></p>
+</div>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos nuevos intervalos para clasificar la calidad como &quot;bad&quot; o &quot;good&quot;</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>bins <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">6</span>, <span class="dv">10</span>]  <span class="co"># Intervalos para clasificar como &quot;bad&quot; o &quot;good&quot;</span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos nuevos nombres de grupos</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>group_names <span class="op">=</span> [<span class="st">&quot;malo&quot;</span>, <span class="st">&quot;bueno&quot;</span>]</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Aplicamos la clasificación</span></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;quality&quot;</span>] <span class="op">=</span> pd.cut(df[<span class="st">&quot;quality&quot;</span>], bins<span class="op">=</span>bins, labels<span class="op">=</span>group_names, include_lowest<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a>new_quality <span class="op">=</span> LabelEncoder()</span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;quality&quot;</span>] <span class="op">=</span> new_quality.fit_transform(df[<span class="st">&quot;quality&quot;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;quality&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="45">
+<pre><code>quality
+1    1382
+0     217
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Se decide pasar la variable a una variable categórica para tener en
+datos "malo", "regular" y "bueno". Después de eso se clasifica en
+valores 0, 1 y 2</p>
+</div>
+<div class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;quality&#39;</span>].info</span></code></pre></div>
+<div class="output execute_result" data-execution_count="46">
+<pre><code>&lt;bound method Series.info of 0       1
+1       1
+2       1
+3       1
+4       1
+       ..
+1594    1
+1595    1
+1596    1
+1597    1
+1598    1
+Name: quality, Length: 1599, dtype: int32&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co">#definir variables</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop([<span class="st">&quot;quality&quot;</span>], axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">&quot;quality&quot;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>X.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="48">
+<pre><code>(1599, 8)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>y.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="49">
+<pre><code>(1599,)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;quality&#39;</span>].info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.series.Series&#39;&gt;
+RangeIndex: 1599 entries, 0 to 1598
+Series name: quality
+Non-Null Count  Dtype
+--------------  -----
+1599 non-null   int32
+dtypes: int32(1)
+memory usage: 6.4 KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Dividir en conjunto de entrenamiento y prueba</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">45</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>X_train.shape, X_test.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="51">
+<pre><code>((1279, 8), (320, 8))</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="52">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co">#PIPELINE</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>numeric_features <span class="op">=</span> [<span class="st">&#39;fixed acidity&#39;</span>, <span class="st">&#39;volatile acidity&#39;</span>,</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;citric acid&#39;</span>,</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;chlorides&#39;</span>,</span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;total sulfur dioxide&#39;</span>,</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;density&#39;</span>,</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;sulphates&#39;</span>,	</span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>                    <span class="st">&#39;alcohol&#39;</span>]</span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a>numeric_transformer <span class="op">=</span> Pipeline(</span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span>[(<span class="st">&quot;imputer&quot;</span>, SimpleImputer (strategy<span class="op">=</span><span class="st">&quot;median&quot;</span>)), (<span class="st">&quot;scaler&quot;</span>, StandardScaler())]</span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a>preprocessor <span class="op">=</span> ColumnTransformer(</span>
+<span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a>    transformers <span class="op">=</span> [</span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;num&quot;</span>, numeric_transformer, numeric_features), </span>
+<span id="cb57-19"><a href="#cb57-19" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb57-20"><a href="#cb57-20" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>model_rl <span class="op">=</span> Pipeline(</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;reglin&quot;</span>, LinearRegression())] </span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>model_sgd <span class="op">=</span> Pipeline(</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regSGDR&quot;</span>, SGDRegressor())] </span>
+<span id="cb58-7"><a href="#cb58-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb58-8"><a href="#cb58-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-9"><a href="#cb58-9" aria-hidden="true" tabindex="-1"></a>model_ridge <span class="op">=</span> Pipeline(</span>
+<span id="cb58-10"><a href="#cb58-10" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regRID&quot;</span>, Ridge())] </span>
+<span id="cb58-11"><a href="#cb58-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb58-12"><a href="#cb58-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-13"><a href="#cb58-13" aria-hidden="true" tabindex="-1"></a>model_lasso <span class="op">=</span> Pipeline(</span>
+<span id="cb58-14"><a href="#cb58-14" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regLASS&quot;</span>, Lasso())] </span>
+<span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="54">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.columns)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Index([&#39;fixed acidity&#39;, &#39;volatile acidity&#39;, &#39;citric acid&#39;, &#39;chlorides&#39;,
+       &#39;total sulfur dioxide&#39;, &#39;density&#39;, &#39;sulphates&#39;, &#39;alcohol&#39;, &#39;quality&#39;],
+      dtype=&#39;object&#39;)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="55">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>model_rl.fit(X_train, y_train)</span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Regresion Lineal: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_rl.score(X_test, y_test))</span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>model_sgd.fit(X_train, y_train)</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo SGDR: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_sgd.score(X_test, y_test))</span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a>model_ridge.fit(X_train, y_train)</span>
+<span id="cb61-8"><a href="#cb61-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Ridge: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_ridge.score(X_test, y_test))</span>
+<span id="cb61-9"><a href="#cb61-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-10"><a href="#cb61-10" aria-hidden="true" tabindex="-1"></a>model_lasso.fit(X_train, y_train)</span>
+<span id="cb61-11"><a href="#cb61-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Lasso: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_lasso.score(X_test, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Modelo Regresion Lineal: 0.119689
+Modelo SGDR: 0.120638
+Modelo Ridge: 0.119873
+Modelo Lasso: -0.004296
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Con estos ajustes, se puede ver que disminuye el porcentaje; lo que
+podemos decir que con este nuevo ajuste y modelo solo se puede llegar a
+decir que entre un 12% se puede llegar a predecir la variabilidad de la
+calidad del vino por sus componentes</p>
+</div>
+<div class="cell markdown">
+<p>Se pasa a considerar hacer un RandomForestRegressor</p>
+</div>
+<div class="cell code" data-execution_count="56">
+<div class="sourceCode" id="cb63"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.datasets <span class="im">import</span> make_regression</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="57">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>model_rf_regressor <span class="op">=</span> Pipeline(</span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span> [(<span class="st">&quot;preprocessor&quot;</span>, preprocessor), (<span class="st">&quot;regramfor&quot;</span>, RandomForestRegressor())] </span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="58">
+<div class="sourceCode" id="cb65"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>model_rf_regressor.fit(X_train, y_train)</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo Regressor: </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_rf_regressor.score(X_test, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Modelo Regressor: 0.247334
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Al intentar con el modelo regressor, sube el porcentaje, sin embargo
+no es muy significativo</p>
+</div>
+<div class="cell markdown">
+<p>Se crea una instancia de RandomForestClassifier con max_depth=3 para
+limitar la profundidad de cada árbol y evitar sobreajuste</p>
+</div>
+<div class="cell code" data-execution_count="59">
+<div class="sourceCode" id="cb67"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-3"><a href="#cb67-3" aria-hidden="true" tabindex="-1"></a>classifier<span class="op">=</span>RandomForestClassifier(random_state<span class="op">=</span><span class="dv">0</span>,max_depth<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb67-4"><a href="#cb67-4" aria-hidden="true" tabindex="-1"></a>classifier.fit(X_train,y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="59">
+<style>#sk-container-id-1 {
+  /* Definition of color scheme common for light and dark mode */
+  --sklearn-color-text: black;
+  --sklearn-color-line: gray;
+  /* Definition of color scheme for unfitted estimators */
+  --sklearn-color-unfitted-level-0: #fff5e6;
+  --sklearn-color-unfitted-level-1: #f6e4d2;
+  --sklearn-color-unfitted-level-2: #ffe0b3;
+  --sklearn-color-unfitted-level-3: chocolate;
+  /* Definition of color scheme for fitted estimators */
+  --sklearn-color-fitted-level-0: #f0f8ff;
+  --sklearn-color-fitted-level-1: #d4ebff;
+  --sklearn-color-fitted-level-2: #b3dbfd;
+  --sklearn-color-fitted-level-3: cornflowerblue;
+
+  /* Specific color for light theme */
+  --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, white)));
+  --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, black)));
+  --sklearn-color-icon: #696969;
+
+  @media (prefers-color-scheme: dark) {
+    /* Redefinition of color scheme for dark theme */
+    --sklearn-color-text-on-default-background: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-background: var(--sg-background-color, var(--theme-background, var(--jp-layout-color0, #111)));
+    --sklearn-color-border-box: var(--sg-text-color, var(--theme-code-foreground, var(--jp-content-font-color1, white)));
+    --sklearn-color-icon: #878787;
+  }
+}
+
+#sk-container-id-1 {
+  color: var(--sklearn-color-text);
+}
+
+#sk-container-id-1 pre {
+  padding: 0;
+}
+
+#sk-container-id-1 input.sk-hidden--visually {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#sk-container-id-1 div.sk-dashed-wrapped {
+  border: 1px dashed var(--sklearn-color-line);
+  margin: 0 0.4em 0.5em 0.4em;
+  box-sizing: border-box;
+  padding-bottom: 0.4em;
+  background-color: var(--sklearn-color-background);
+}
+
+#sk-container-id-1 div.sk-container {
+  /* jupyter's `normalize.less` sets `[hidden] { display: none; }`
+     but bootstrap.min.css set `[hidden] { display: none !important; }`
+     so we also need the `!important` here to be able to override the
+     default hidden behavior on the sphinx rendered scikit-learn.org.
+     See: https://github.com/scikit-learn/scikit-learn/issues/21755 */
+  display: inline-block !important;
+  position: relative;
+}
+
+#sk-container-id-1 div.sk-text-repr-fallback {
+  display: none;
+}
+
+div.sk-parallel-item,
+div.sk-serial,
+div.sk-item {
+  /* draw centered vertical line to link estimators */
+  background-image: linear-gradient(var(--sklearn-color-text-on-default-background), var(--sklearn-color-text-on-default-background));
+  background-size: 2px 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Parallel-specific style estimator block */
+
+#sk-container-id-1 div.sk-parallel-item::after {
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid var(--sklearn-color-text-on-default-background);
+  flex-grow: 1;
+}
+
+#sk-container-id-1 div.sk-parallel {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: var(--sklearn-color-background);
+  position: relative;
+}
+
+#sk-container-id-1 div.sk-parallel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#sk-container-id-1 div.sk-parallel-item:first-child::after {
+  align-self: flex-end;
+  width: 50%;
+}
+
+#sk-container-id-1 div.sk-parallel-item:last-child::after {
+  align-self: flex-start;
+  width: 50%;
+}
+
+#sk-container-id-1 div.sk-parallel-item:only-child::after {
+  width: 0;
+}
+
+/* Serial-specific style estimator block */
+
+#sk-container-id-1 div.sk-serial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--sklearn-color-background);
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+
+/* Toggleable style: style used for estimator/Pipeline/ColumnTransformer box that is
+clickable and can be expanded/collapsed.
+- Pipeline and ColumnTransformer use this feature and define the default style
+- Estimators will overwrite some part of the style using the `sk-estimator` class
+*/
+
+/* Pipeline and ColumnTransformer style (default) */
+
+#sk-container-id-1 div.sk-toggleable {
+  /* Default theme specific background. It is overwritten whether we have a
+  specific estimator or a Pipeline/ColumnTransformer */
+  background-color: var(--sklearn-color-background);
+}
+
+/* Toggleable label */
+#sk-container-id-1 label.sk-toggleable__label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#sk-container-id-1 label.sk-toggleable__label-arrow:before {
+  /* Arrow on the left of the label */
+  content: "▸";
+  float: left;
+  margin-right: 0.25em;
+  color: var(--sklearn-color-icon);
+}
+
+#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {
+  color: var(--sklearn-color-text);
+}
+
+/* Toggleable content - dropdown */
+
+#sk-container-id-1 div.sk-toggleable__content {
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  text-align: left;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-1 div.sk-toggleable__content.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-1 div.sk-toggleable__content pre {
+  margin: 0.2em;
+  border-radius: 0.25em;
+  color: var(--sklearn-color-text);
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-1 div.sk-toggleable__content.fitted pre {
+  /* unfitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {
+  /* Expand drop-down */
+  max-height: 200px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {
+  content: "▾";
+}
+
+/* Pipeline/ColumnTransformer-specific style */
+
+#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-1 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator-specific style */
+
+/* Colorize estimator box */
+#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-1 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+#sk-container-id-1 div.sk-label label.sk-toggleable__label,
+#sk-container-id-1 div.sk-label label {
+  /* The background is the default theme color */
+  color: var(--sklearn-color-text-on-default-background);
+}
+
+/* On hover, darken the color of the background */
+#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+/* Label box, darken color on hover, fitted */
+#sk-container-id-1 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {
+  color: var(--sklearn-color-text);
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Estimator label */
+
+#sk-container-id-1 div.sk-label label {
+  font-family: monospace;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+#sk-container-id-1 div.sk-label-container {
+  text-align: center;
+}
+
+/* Estimator-specific */
+#sk-container-id-1 div.sk-estimator {
+  font-family: monospace;
+  border: 1px dotted var(--sklearn-color-border-box);
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-0);
+}
+
+#sk-container-id-1 div.sk-estimator.fitted {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-0);
+}
+
+/* on hover */
+#sk-container-id-1 div.sk-estimator:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-2);
+}
+
+#sk-container-id-1 div.sk-estimator.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-2);
+}
+
+/* Specification for estimator info (e.g. "i" and "?") */
+
+/* Common style for "i" and "?" */
+
+.sk-estimator-doc-link,
+a:link.sk-estimator-doc-link,
+a:visited.sk-estimator-doc-link {
+  float: right;
+  font-size: smaller;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1em;
+  height: 1em;
+  width: 1em;
+  text-decoration: none !important;
+  margin-left: 1ex;
+  /* unfitted */
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+  color: var(--sklearn-color-unfitted-level-1);
+}
+
+.sk-estimator-doc-link.fitted,
+a:link.sk-estimator-doc-link.fitted,
+a:visited.sk-estimator-doc-link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+div.sk-estimator:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover,
+div.sk-label-container:hover .sk-estimator-doc-link:hover,
+.sk-estimator-doc-link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+div.sk-estimator.fitted:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover,
+div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
+.sk-estimator-doc-link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+/* Span, style for the box shown on hovering the info icon */
+.sk-estimator-doc-link span {
+  display: none;
+  z-index: 9999;
+  position: relative;
+  font-weight: normal;
+  right: .2ex;
+  padding: .5ex;
+  margin: .5ex;
+  width: min-content;
+  min-width: 20ex;
+  max-width: 50ex;
+  color: var(--sklearn-color-text);
+  box-shadow: 2pt 2pt 4pt #999;
+  /* unfitted */
+  background: var(--sklearn-color-unfitted-level-0);
+  border: .5pt solid var(--sklearn-color-unfitted-level-3);
+}
+
+.sk-estimator-doc-link.fitted span {
+  /* fitted */
+  background: var(--sklearn-color-fitted-level-0);
+  border: var(--sklearn-color-fitted-level-3);
+}
+
+.sk-estimator-doc-link:hover span {
+  display: block;
+}
+
+/* "?"-specific style due to the `<a>` HTML tag */
+
+#sk-container-id-1 a.estimator_doc_link {
+  float: right;
+  font-size: 1rem;
+  line-height: 1em;
+  font-family: monospace;
+  background-color: var(--sklearn-color-background);
+  border-radius: 1rem;
+  height: 1rem;
+  width: 1rem;
+  text-decoration: none;
+  /* unfitted */
+  color: var(--sklearn-color-unfitted-level-1);
+  border: var(--sklearn-color-unfitted-level-1) 1pt solid;
+}
+
+#sk-container-id-1 a.estimator_doc_link.fitted {
+  /* fitted */
+  border: var(--sklearn-color-fitted-level-1) 1pt solid;
+  color: var(--sklearn-color-fitted-level-1);
+}
+
+/* On hover */
+#sk-container-id-1 a.estimator_doc_link:hover {
+  /* unfitted */
+  background-color: var(--sklearn-color-unfitted-level-3);
+  color: var(--sklearn-color-background);
+  text-decoration: none;
+}
+
+#sk-container-id-1 a.estimator_doc_link.fitted:hover {
+  /* fitted */
+  background-color: var(--sklearn-color-fitted-level-3);
+}
+</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestClassifier(max_depth=3, random_state=0)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;RandomForestClassifier<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.ensemble.RandomForestClassifier.html">?<span>Documentation for RandomForestClassifier</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>RandomForestClassifier(max_depth=3, random_state=0)</pre></div> </div></div></div></div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Se utilizan las características de X_test para hacer predicciones
+sobre la calidad del vino</p>
+</div>
+<div class="cell code" data-execution_count="60">
+<div class="sourceCode" id="cb68"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a>y_pred<span class="op">=</span>classifier.predict(X_test)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Se compara las predicciones (y_pred) con las etiquetas reales
+(y_test) utilizando accuracy_score para calcular la precisión del
+modelo</p>
+</div>
+<div class="cell code" data-execution_count="61">
+<div class="sourceCode" id="cb69"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>accuracy_score(y_test,y_pred)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="61">
+<pre><code>0.884375</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>La exactitud de este modelo aumenta significativamente a 0.88.
+Podemos ver que, gracias a este modelo de aprendizaje, el cual combinó
+múltiples árboles de decisión para llegar a la clasificación, es el más
+preciso hasta el momento. Además, al tratarse de un modelo de
+clasificación, dentro de su lógica de predicción es más eficiente que un
+modelo de regresión, ya que el modelo de regresión lineal funciona mejor
+con valores continuos y no categóricos.</p>
+</div>
+<div class="cell markdown">
+<p><strong>Regresión Logística</strong></p>
+</div>
+<div class="cell code" data-execution_count="62">
+<div class="sourceCode" id="cb71"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Definimos nuestras varibles X e y </span></span>
+<span id="cb71-4"><a href="#cb71-4" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop([<span class="st">&#39;quality&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb71-5"><a href="#cb71-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">&#39;quality&#39;</span>]</span>
+<span id="cb71-6"><a href="#cb71-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-7"><a href="#cb71-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Dividimos nuestras variables en prueba y testeo con porcentaje de testeo de 20% </span></span>
+<span id="cb71-8"><a href="#cb71-8" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb71-9"><a href="#cb71-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-10"><a href="#cb71-10" aria-hidden="true" tabindex="-1"></a><span class="co">#Pasamos a hacer el modelo de regresión loística </span></span>
+<span id="cb71-11"><a href="#cb71-11" aria-hidden="true" tabindex="-1"></a>logistic_regression <span class="op">=</span> LogisticRegression(random_state<span class="op">=</span><span class="dv">0</span>, max_iter<span class="op">=</span><span class="dv">4000</span>)</span>
+<span id="cb71-12"><a href="#cb71-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Se sube el máximo de interaciones para mejorar la optimización del algoritmo. Se intentó con valores menores, pero el modelo no convergía</span></span>
+<span id="cb71-13"><a href="#cb71-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-14"><a href="#cb71-14" aria-hidden="true" tabindex="-1"></a><span class="co">#Entrenamos el modelo </span></span>
+<span id="cb71-15"><a href="#cb71-15" aria-hidden="true" tabindex="-1"></a>logistic_regression.fit(X_train, y_train)</span>
+<span id="cb71-16"><a href="#cb71-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-17"><a href="#cb71-17" aria-hidden="true" tabindex="-1"></a><span class="co">#Hacemos un modelo para predecir las etiquetas de calidad para el conjunto de prueba</span></span>
+<span id="cb71-18"><a href="#cb71-18" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> logistic_regression.predict(X_test)</span>
+<span id="cb71-19"><a href="#cb71-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb71-20"><a href="#cb71-20" aria-hidden="true" tabindex="-1"></a><span class="co">#Evaluamos la exactitud del modelo</span></span>
+<span id="cb71-21"><a href="#cb71-21" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb71-22"><a href="#cb71-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Precisión del modelo de regresión logística: </span><span class="sc">{</span>accuracy<span class="sc">}</span><span class="ss">&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Precisión del modelo de regresión logística: 0.853125
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Se ve que con la aplicación del modelo de regresión logística,
+tenemos una exactitud casi similar a la del modelo anterior. Este modelo
+nos ayuda más que el lineal o el resto, pues usa clasificación binaria,
+la cual, hemos usado en nuestra variable <em>quality</em>.</p>
+</div>
+<div class="cell markdown">
+<p><strong>VAMOS A INTENTAR SUBIR LOS RESULTADOS DE NUESTROS MODELOS DE
+RIDGE, LASSO, SDG Y LINEAL</strong></p>
+</div>
+<div class="cell markdown">
+<p>Lo primero que vamos a hacer es crear una nueva categoría llamada
+<em>quality_numeric</em></p>
+</div>
+<div class="cell code" data-execution_count="63">
+<div class="sourceCode" id="cb73"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Asignamos las calificaciones numéricas a las categorías correspondientes</span></span>
+<span id="cb73-4"><a href="#cb73-4" aria-hidden="true" tabindex="-1"></a>dfSecondary[<span class="st">&#39;quality_numeric&#39;</span>] <span class="op">=</span> pd.cut(dfSecondary[<span class="st">&#39;quality&#39;</span>], bins<span class="op">=</span>[<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>], labels<span class="op">=</span>[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])</span>
+<span id="cb73-5"><a href="#cb73-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-6"><a href="#cb73-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertimos los valores de categoría a enteros</span></span>
+<span id="cb73-7"><a href="#cb73-7" aria-hidden="true" tabindex="-1"></a>dfSecondary[<span class="st">&#39;quality_numeric&#39;</span>] <span class="op">=</span> dfSecondary[<span class="st">&#39;quality_numeric&#39;</span>].astype(<span class="bu">int</span>)</span>
+<span id="cb73-8"><a href="#cb73-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb73-9"><a href="#cb73-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Verificamos los cambios</span></span>
+<span id="cb73-10"><a href="#cb73-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dfSecondary[<span class="st">&#39;quality_numeric&#39;</span>].value_counts())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>quality_numeric
+2    1319
+3     217
+1      63
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Vamos a volver a hacer una copia, ahora del dataframe
+<em>dfSecondary</em>, la copia la vamos a llamar <em>dfFinal</em>. Con
+esta copia vamos a calcular la correlación de todos los valores en el
+dataframe con respecto a la columna <em>quality_numeric</em></p>
+</div>
+<div class="cell code" data-execution_count="64">
+<div class="sourceCode" id="cb75"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a>dfFinal <span class="op">=</span> dfSecondary.copy()</span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a>correlacion <span class="op">=</span> dfFinal.corr()[<span class="st">&#39;quality_numeric&#39;</span>].sort_values()</span>
+<span id="cb75-3"><a href="#cb75-3" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb75-4"><a href="#cb75-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb75-5"><a href="#cb75-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(correlacion)</span>
+<span id="cb75-6"><a href="#cb75-6" aria-hidden="true" tabindex="-1"></a><span class="co">#dfFinal = dfFinal.drop([&quot;pH&quot;, &quot;total sulfur dioxide&quot;, &quot;free sulfur dioxide&quot;], axis=1) </span></span>
+<span id="cb75-7"><a href="#cb75-7" aria-hidden="true" tabindex="-1"></a>dfFinal.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>volatile acidity       -0.333816
+density                -0.123566
+chlorides              -0.098829
+pH                     -0.093946
+total sulfur dioxide   -0.081960
+free sulfur dioxide    -0.025075
+residual sugar          0.030153
+fixed acidity           0.125886
+sulphates               0.205409
+citric acid             0.228930
+alcohol                 0.361363
+quality                 0.812367
+quality_numeric         1.000000
+Name: quality_numeric, dtype: float64
+&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1599 entries, 0 to 1598
+Data columns (total 13 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   fixed acidity         1599 non-null   float64
+ 1   volatile acidity      1599 non-null   float64
+ 2   citric acid           1599 non-null   float64
+ 3   residual sugar        1599 non-null   float64
+ 4   chlorides             1599 non-null   float64
+ 5   free sulfur dioxide   1599 non-null   float64
+ 6   total sulfur dioxide  1599 non-null   float64
+ 7   density               1599 non-null   float64
+ 8   pH                    1599 non-null   float64
+ 9   sulphates             1599 non-null   float64
+ 10  alcohol               1599 non-null   float64
+ 11  quality               1599 non-null   int64  
+ 12  quality_numeric       1599 non-null   int32  
+dtypes: float64(11), int32(1), int64(1)
+memory usage: 156.3 KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Vamos a dividir los datos en conjunto de entrenamiento y prueba. Para
+este caso, vamos a seguir utilizando un tamaño de prueba del 20%</p>
+</div>
+<div class="cell code" data-execution_count="65">
+<div class="sourceCode" id="cb77"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb77-2"><a href="#cb77-2" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb77-3"><a href="#cb77-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb77-4"><a href="#cb77-4" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> dfFinal.drop(<span class="st">&#39;quality_numeric&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb77-5"><a href="#cb77-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dfFinal[<span class="st">&#39;quality_numeric&#39;</span>]</span>
+<span id="cb77-6"><a href="#cb77-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb77-7"><a href="#cb77-7" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="66">
+<div class="sourceCode" id="cb78"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.compose <span class="im">import</span> ColumnTransformer</span>
+<span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.discriminant_analysis <span class="im">import</span> StandardScaler</span>
+<span id="cb78-3"><a href="#cb78-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.impute <span class="im">import</span> SimpleImputer</span>
+<span id="cb78-4"><a href="#cb78-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> Pipeline</span>
+<span id="cb78-5"><a href="#cb78-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-6"><a href="#cb78-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-7"><a href="#cb78-7" aria-hidden="true" tabindex="-1"></a>numeric_features <span class="op">=</span> X.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;int64&#39;</span>, <span class="st">&#39;float64&#39;</span>]).columns</span>
+<span id="cb78-8"><a href="#cb78-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-9"><a href="#cb78-9" aria-hidden="true" tabindex="-1"></a>numeric_transformer <span class="op">=</span> Pipeline(</span>
+<span id="cb78-10"><a href="#cb78-10" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span>[(<span class="st">&quot;imputer&quot;</span>, SimpleImputer (strategy<span class="op">=</span><span class="st">&quot;median&quot;</span>)), (<span class="st">&quot;scaler&quot;</span>, StandardScaler())]</span>
+<span id="cb78-11"><a href="#cb78-11" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb78-12"><a href="#cb78-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-13"><a href="#cb78-13" aria-hidden="true" tabindex="-1"></a>processorColumnTransformer <span class="op">=</span> ColumnTransformer(</span>
+<span id="cb78-14"><a href="#cb78-14" aria-hidden="true" tabindex="-1"></a>    transformers<span class="op">=</span>[(<span class="st">&quot;num&quot;</span>, numeric_transformer, numeric_features)] </span>
+<span id="cb78-15"><a href="#cb78-15" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="67">
+<div class="sourceCode" id="cb79"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> Ridge, SGDRegressor , Lasso</span>
+<span id="cb79-2"><a href="#cb79-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression </span>
+<span id="cb79-3"><a href="#cb79-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb79-4"><a href="#cb79-4" aria-hidden="true" tabindex="-1"></a>model_rl <span class="op">=</span> Pipeline(</span>
+<span id="cb79-5"><a href="#cb79-5" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span>[(<span class="st">&quot;preprocessor&quot;</span>, processorColumnTransformer), (<span class="st">&quot;classifier&quot;</span>, LinearRegression())]</span>
+<span id="cb79-6"><a href="#cb79-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb79-7"><a href="#cb79-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb79-8"><a href="#cb79-8" aria-hidden="true" tabindex="-1"></a>model_sgd <span class="op">=</span> Pipeline(</span>
+<span id="cb79-9"><a href="#cb79-9" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span></span>
+<span id="cb79-10"><a href="#cb79-10" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb79-11"><a href="#cb79-11" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;preprocessor&quot;</span>, processorColumnTransformer), </span>
+<span id="cb79-12"><a href="#cb79-12" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&#39;scaler&#39;</span>, StandardScaler()),</span>
+<span id="cb79-13"><a href="#cb79-13" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;classifier&quot;</span>, SGDRegressor(max_iter<span class="op">=</span><span class="dv">1000</span>, tol<span class="op">=</span><span class="fl">1e-3</span>, random_state<span class="op">=</span><span class="dv">42</span>))</span>
+<span id="cb79-14"><a href="#cb79-14" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb79-15"><a href="#cb79-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb79-16"><a href="#cb79-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb79-17"><a href="#cb79-17" aria-hidden="true" tabindex="-1"></a>model_ridge <span class="op">=</span> Pipeline(</span>
+<span id="cb79-18"><a href="#cb79-18" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span></span>
+<span id="cb79-19"><a href="#cb79-19" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb79-20"><a href="#cb79-20" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;preprocessor&quot;</span>, processorColumnTransformer), </span>
+<span id="cb79-21"><a href="#cb79-21" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&#39;scaler&#39;</span>, StandardScaler()),</span>
+<span id="cb79-22"><a href="#cb79-22" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;classifier&quot;</span>, Ridge())</span>
+<span id="cb79-23"><a href="#cb79-23" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb79-24"><a href="#cb79-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb79-25"><a href="#cb79-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb79-26"><a href="#cb79-26" aria-hidden="true" tabindex="-1"></a>model_lasso <span class="op">=</span> Pipeline(</span>
+<span id="cb79-27"><a href="#cb79-27" aria-hidden="true" tabindex="-1"></a>    steps<span class="op">=</span></span>
+<span id="cb79-28"><a href="#cb79-28" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb79-29"><a href="#cb79-29" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&quot;preprocessor&quot;</span>, processorColumnTransformer), </span>
+<span id="cb79-30"><a href="#cb79-30" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&#39;scaler&#39;</span>, StandardScaler()),</span>
+<span id="cb79-31"><a href="#cb79-31" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&#39;lasso&#39;</span>, Lasso(alpha<span class="op">=</span><span class="fl">0.01</span>, random_state<span class="op">=</span><span class="dv">42</span>))</span>
+<span id="cb79-32"><a href="#cb79-32" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb79-33"><a href="#cb79-33" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="68">
+<div class="sourceCode" id="cb80"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a>model_rl.fit(X_train, y_train)</span>
+<span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo de regresion lineal </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_rl.score(X_test, y_test))</span>
+<span id="cb80-3"><a href="#cb80-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb80-4"><a href="#cb80-4" aria-hidden="true" tabindex="-1"></a>model_sgd.fit(X_train, y_train)</span>
+<span id="cb80-5"><a href="#cb80-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo de SGD </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_sgd.score(X_test, y_test))</span>
+<span id="cb80-6"><a href="#cb80-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb80-7"><a href="#cb80-7" aria-hidden="true" tabindex="-1"></a>model_ridge.fit(X_train, y_train)</span>
+<span id="cb80-8"><a href="#cb80-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo de Ridge </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_ridge.score(X_test, y_test))</span>
+<span id="cb80-9"><a href="#cb80-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb80-10"><a href="#cb80-10" aria-hidden="true" tabindex="-1"></a>model_lasso.fit(X_train, y_train)</span>
+<span id="cb80-11"><a href="#cb80-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Modelo de Lasso </span><span class="sc">%3f</span><span class="st">&quot;</span> <span class="op">%</span> model_lasso.score(X_test, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Modelo de regresion lineal 0.666719
+Modelo de SGD 0.666534
+Modelo de Ridge 0.666767
+Modelo de Lasso 0.666795
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+
+</div>
+</body>
+</html>
